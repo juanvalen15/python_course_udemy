@@ -30,10 +30,10 @@ student_grades.__contains__(10)
 print(student_grades.count(10))
 
 
-monday_temperatures = (1, 4, 5) # tuple declaration. tuples cannot be mutated e.g., with append
+monday_temperatures = (1, 4, 5) # tuple declaration. tuples cannot be mutated e.g., with append or remove
 print(monday_temperatures)
 
-monday_temperatures = [1, 4, 5] # list declaration. list can be mutated e.g., with append
+monday_temperatures = [1, 4, 5] # list declaration. list can be mutated e.g., with append or remove
 print(monday_temperatures)
 monday_temperatures.append(6)
 print(monday_temperatures)
