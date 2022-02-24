@@ -8,4 +8,4 @@ from inspect import modulesbyfile
 
 # to write
 with open('files/fruits.txt', "w") as myfile:
-    myfile.write("Tomato")
+    myfile.write("Tomato\nCucumber\nOnion")
