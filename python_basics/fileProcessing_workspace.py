@@ -1,7 +1,7 @@
 from inspect import modulesbyfile
 
-myfile = open('fruits.txt')
-content = myfile.read();
+# with content manager closes the file automatically
+with open('files/fruits.txt') as myfile:
+    content = myfile.read()
 
-print(content)
 print(content)
