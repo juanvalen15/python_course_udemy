@@ -1,7 +1,11 @@
 from inspect import modulesbyfile
 
 # with content manager closes the file automatically
-with open('files/fruits.txt') as myfile:
-    content = myfile.read()
 
-print(content)
+# # to read
+# with open('files/fruits.txt') as myfile:
+#     content = myfile.read()
+
+# to write
+with open('files/fruits.txt', "w") as myfile:
+    myfile.write("Tomato")
