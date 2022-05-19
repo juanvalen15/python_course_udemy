@@ -3,7 +3,7 @@ from inspect import modulesbyfile
 # with content manager closes the file automatically
 
 # # to read
-# with open('files/fruits.txt') as myfile:
+# with open('files/fruits.txt', "r") as myfile:
 #     content = myfile.read()
 
 # to write
